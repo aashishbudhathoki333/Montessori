@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Programs from "../components/Programs";
+import About from "../components/About";
 
 function Home() {
   return (
@@ -10,11 +11,9 @@ function Home() {
       <main>
         <Hero />
 
-        <Programs />
+        <About />
 
-        <section id="about">
-          <h2>About Our School</h2>
-        </section>
+        <Programs />
 
         <section id="events">
           <h2>Upcoming Events</h2>
