@@ -1,8 +1,11 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Programs from "../components/Programs";
-import About from "../components/About";
+import About from "./About";
 import Events from "../components/Events";
+import Gallery from "../components/Gallery";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -18,14 +21,11 @@ function Home() {
 
         <Events />
 
-        <section id="gallery">
-          <h2>School Gallery</h2>
-        </section>
+        <Gallery />
 
-        <section id="contact">
-          <h2>Contact Us</h2>
-        </section>
+        <Contact />
       </main>
+       <Footer />
     </>
   );
 }
