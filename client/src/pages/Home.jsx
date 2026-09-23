@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Programs from "../components/Programs";
 import About from "../components/About";
+import Events from "../components/Events";
 
 function Home() {
   return (
@@ -15,9 +16,7 @@ function Home() {
 
         <Programs />
 
-        <section id="events">
-          <h2>Upcoming Events</h2>
-        </section>
+        <Events />
 
         <section id="gallery">
           <h2>School Gallery</h2>
